@@ -1,0 +1,38 @@
+# data/flats.yml
+blocusassistance:
+  name: "Blocus Assistance"
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, expedita?"
+  url: "http://www.blocusassistance.be/"
+  rating: 4
+  image: blocusassistance.png
+nohell:
+  name: "Un Noël presque parfait"
+  description: "not finished yet... Goal : pickup randomly the person you have to offer a present for christmas"
+  url: "http://nohell.herokuapp.com/"
+  rating: 3
+  image: noel.png
+angieskitchen:
+  name: Angie's Kitchen
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ratione totam, odit quas, quia ex!"
+  url: http://www.angieskitchen.be/
+  rating: 5
+  image: angieskitchen.png
+forensis:
+  name: Forensis - Avocat
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ratione totam, odit quas, quia ex!"
+  url: http://forensis-test.herokuapp.com/
+  rating: 5
+  image: forensis.png
+leclubdesdevoirs:
+  name: Le Club des Devoirs
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ratione totam, odit quas, quia ex!"
+  url: http://www.leclubdesdevoirs.be/
+  rating: 5
+  image: leclubdesdevoirs.png
+passelapremiere:
+  name: Passe la Première
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ratione totam, odit quas, quia ex!"
+  url: http://www.passelapremiere.be/
+  rating: 5
+  image: passelapremiere.png
+

@@ -1,0 +1,17 @@
+<div class="container projects" id="home-flats">
+  <div class="text-center">
+
+    <h1>Project detail</h1>
+    <!-- Access data.projects with owner's name as key -->
+    <% project = data.projects[project] %>
+
+    <!-- Inject project data in template -->
+    <%= image_tag project.image, class: "img-project" %>
+
+    <p><%= project.description %></p>
+    <h1 id="mytest"><%= project.name %></h1>
+    <p>Website : <a href="<%= project.url %>"><%= project.name %></a>
+
+  </div>
+</div>
+

@@ -1,0 +1,19 @@
+<!-- source/index.html.erb -->
+
+<div class="container" id="projects-home">
+  <div class="text-center">
+    <h2>Recent projects</h2>
+    <div class="row">
+      <% data.projects.each do |project, info| %>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url(<%= image_path (info.image) %>);">
+            <div class="card-category"><%= info.name %></div>
+            <div class="card-description">
+            </div>
+            <%= link_to "", "projects/#{project}.html", class: "card-link" %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
